@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>io.kubernetes</groupId>
 			<artifactId>client-java</artifactId>
-			<version>20.0.0</version>
+			<version>21.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>io.kubernetes</groupId>
@@ -91,7 +91,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-sts</artifactId>
-			<version>1.12.780</version>
+			<version>1.12.781</version>
 		</dependency>
 
 	</dependencies>
