@@ -62,7 +62,7 @@
     <gsonfire.version>1.9.0</gsonfire.version>
     <apache.commons.lang3.version>3.17.0</apache.commons.lang3.version>
     <apache.commons.collections4.version>4.4</apache.commons.collections4.version>
-    <apache.commons.compress>1.27.1</apache.commons.compress>
+    <apache.commons.compress>1.28.0</apache.commons.compress>
     <apache.commons.io>2.18.0</apache.commons.io>
     <common.codec.version>1.18.0</common.codec.version>
     <spring.boot.version>3.4.2</spring.boot.version>
@@ -474,8 +474,8 @@
               <includes>
                 <include>src/**/*.java</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
             </format>
             <!-- removes wildcard imports -->
             <format>
@@ -512,7 +512,7 @@
             </format>
           </formats>
           <java>
-            <removeUnusedImports />
+            <removeUnusedImports/>
             <googleJavaFormat>
               <!-- Use the floor LTS Java version used in CI -->
               <version>1.17.0</version>
@@ -529,7 +529,7 @@
               <order>java,javax,org,com,com.diffplug,
               </order>  <!-- or use <file>${basedir}/eclipse.importorder</file> -->
             </importOrder>
-            <greclipse />          <!-- has its own section below -->
+            <greclipse/>          <!-- has its own section below -->
             <licenseHeader>
               <content>
 /*
