@@ -56,7 +56,7 @@
     <gson.version>2.12.1</gson.version>
     <jackson.version>2.18.2</jackson.version>
     <jsr305.version>3.0.2</jsr305.version>
-    <okhttp3.version>4.12.0</okhttp3.version>
+    <okhttp3.version>5.0.0</okhttp3.version>
     <swagger-core.version>1.6.15</swagger-core.version>
     <sundrio.version>0.200.0</sundrio.version>
     <gsonfire.version>1.9.0</gsonfire.version>
@@ -474,8 +474,8 @@
               <includes>
                 <include>src/**/*.java</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
             </format>
             <!-- removes wildcard imports -->
             <format>
@@ -512,7 +512,7 @@
             </format>
           </formats>
           <java>
-            <removeUnusedImports />
+            <removeUnusedImports/>
             <googleJavaFormat>
               <!-- Use the floor LTS Java version used in CI -->
               <version>1.17.0</version>
@@ -529,7 +529,7 @@
               <order>java,javax,org,com,com.diffplug,
               </order>  <!-- or use <file>${basedir}/eclipse.importorder</file> -->
             </importOrder>
-            <greclipse />          <!-- has its own section below -->
+            <greclipse/>          <!-- has its own section below -->
             <licenseHeader>
               <content>
 /*
